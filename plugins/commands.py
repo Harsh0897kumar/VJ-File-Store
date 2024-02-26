@@ -230,7 +230,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                         InlineKeyboardButton('<b>🚀 Fast Download / Watch Online🖥️</b>', callback_data=f'generate_stream_link:{file_id}')
+                         InlineKeyboardButton('🚀🚀🚀🚀 Fast Download / Watch Online 🖥️🖥️🖥️🖥️', callback_data=f'generate_stream_link:{file_id}')
                      ]
                     ]
                 )
