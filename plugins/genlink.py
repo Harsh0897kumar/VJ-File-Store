@@ -1,4 +1,4 @@
-# Don't Remove Credit @VJ_Botz
+# Don't Remove Credit 
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -14,14 +14,14 @@ import json
 import base64
 import logging
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg -
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg -
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -36,7 +36,7 @@ async def gen_link_s(bot, message):
     if message.has_protected_content and message.chat.id not in ADMINS:
         return await message.reply("okDa")
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - 
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
     
@@ -51,17 +51,17 @@ async def gen_link_s(bot, message):
     short_link = await get_short_link(user, share_link)
     await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
     
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - 
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
 @Client.on_message(filters.command(['batch', 'pbatch']))
 async def gen_link_batch(bot, message):
     if " " not in message.text:
-        return await message.reply("Use correct format.\nExample /batch https://t.me/vj_botz/10 https://t.me/vj_botz/20.")
+        return await message.reply("Use correct format.\nExample /batch https://t.me/xyz...../10 https://t.me/xyz...../20.")
     links = message.text.strip().split(" ")
     if len(links) != 3:
-        return await message.reply("Use correct format.\nExample /batch https://t.me/vj_botz/10 https://t.me/vj_botz/20.")
+        return await message.reply("Use correct format.\nExample /batch https://t.me/xyz..../10 https://t.me/xyz..../20.")
     cmd, first, last = links
     regex = re.compile("(https://)?(t\.me/|telegram\.me/|telegram\.dog/)(c/)?(\d+|[a-zA-Z_0-9]+)/(\d+)$")
     match = regex.match(first)
@@ -72,9 +72,9 @@ async def gen_link_batch(bot, message):
     if f_chat_id.isnumeric():
         f_chat_id = int(("-100" + f_chat_id))
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - 
+# Subscribe YouTube Channel For Amazing Bot https://youtube.com/
+# Ask Doubt on telegram 
     
     match = regex.match(last)
     if not match:
@@ -95,9 +95,9 @@ async def gen_link_batch(bot, message):
     except Exception as e:
         return await message.reply(f'Errors - {e}')
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - 
+# Subscribe YouTube Channel For Amazing Bot https://youtube.com/
+# Ask Doubt on telegram 
     
     sts = await message.reply("**ɢᴇɴᴇʀᴀᴛɪɴɢ ʟɪɴᴋ ғᴏʀ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ**.\n**ᴛʜɪs ᴍᴀʏ ᴛᴀᴋᴇ ᴛɪᴍᴇ ᴅᴇᴘᴇɴᴅɪɴɢ ᴜᴘᴏɴ ɴᴜᴍʙᴇʀ ᴏғ ᴍᴇssᴀɢᴇs**")
     if chat_id in FILE_STORE_CHANNEL:
@@ -115,9 +115,9 @@ async def gen_link_batch(bot, message):
 
     outlist = []
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - 
+# Subscribe YouTube Channel For Amazing Bot https://youtube.com/
+# Ask Doubt on telegram 
 
     # file store without db channel
     og_msg = 0
@@ -144,9 +144,9 @@ async def gen_link_batch(bot, message):
                     "protect": cmd.lower().strip() == "/pbatch",
                 }
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - 
+# Subscribe YouTube Channel For Amazing Bot https://youtube.com/
+# Ask Doubt on telegram 
 
                 og_msg +=1
                 outlist.append(file)
@@ -169,7 +169,7 @@ async def gen_link_batch(bot, message):
     short_link = await get_short_link(user, share_link)
     await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg -
+# Subscribe YouTube Channel For Amazing Bot https://youtube.com/
+# Ask Doubt on telegram 
 
