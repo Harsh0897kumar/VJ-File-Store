@@ -35,9 +35,9 @@ API_HASH = environ.get("API_HASH", "")
 ADMINS = int(environ.get("ADMINS", "2052792772"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://FILEFACTORYCLONE:FILEFACTORYCLONE@cluster0.5atbua9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://FILEFACTORYCLONE:FILEFACTORYCLONE@cluster0.5atbua9.mongodb.net/?retryWrites=true&w=majority")
 CDB_NAME = environ.get("CDB_NAME", "FILEFACTORYCLONE")
-DB_URI = environ.get("DB_URI", "mongodb+srv://FILEFACTORYDATABASE:FILEFACTORYDATABASE@cluster0.xf7kdcd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://FILEFACTORYDATABASE:FILEFACTORYDATABASE@cluster0.xf7kdcd.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "FILEFACTORYDATABASE")
 
 # Don't Remove Credit Tg - @VJ_Botz
