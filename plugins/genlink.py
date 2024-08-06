@@ -47,9 +47,9 @@ async def gen_link_s(bot, message):
     user_id = message.from_user.id
     user = await get_user(user_id)
     share_link = f"https://t.me/{BOT_USERNAME}?start={outstr}"
-    await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n <b>📧 ғɪʟᴇ ɴᴀᴍᴇ :- </b> <i><b>{}</b></i> \n\n🔗 ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ :- {share_link}</b>")
+    await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🔗 ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ :- {share_link}</b>")
     short_link = await get_short_link(user, share_link)
-    await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n <b>📧 ғɪʟᴇ ɴᴀᴍᴇ :- </b> <i><b>{}</b></i>\n\n 🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
+    await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n 🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
     
 # Don't Remove Credit Tg - 
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -106,9 +106,9 @@ async def gen_link_batch(bot, message):
         user_id = message.from_user.id
         user = await get_user(user_id)
         share_link = f"https://t.me/{BOT_USERNAME}?start=DSTORE-{b_64}"
-        await sts.edit(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n <b>📧 ғɪʟᴇ ɴᴀᴍᴇ :- </b> <i><b>{}</b></i>\n\n 🔗 ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ :- {share_link}</b>")
+        await sts.edit(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n  🔗 ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ :- {share_link}</b>")
         short_link = await get_short_link(user, share_link)
-        await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n <b>📧 ғɪʟᴇ ɴᴀᴍᴇ :- </b> <i><b>{}</b></i>\n\n 🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
+        await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n 🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
         return
 
     FRMT = "**ɢᴇɴᴇʀᴀᴛɪɴɢ ʟɪɴᴋ...**\n**ᴛᴏᴛᴀʟ ᴍᴇssᴀɢᴇs:** {total}\n**ᴅᴏɴᴇ:** {current}\n**ʀᴇᴍᴀɪɴɪɴɢ:** {rem}\n**sᴛᴀᴛᴜs:** {sts}"
@@ -165,9 +165,9 @@ async def gen_link_batch(bot, message):
     user_id = message.from_user.id
     user = await get_user(user_id)
     share_link = f"https://t.me/{BOT_USERNAME}?start=BATCH-{file_id}"
-    await sts.edit(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\nContains `{og_msg}` files.\n <b>📧 ғɪʟᴇ ɴᴀᴍᴇ :- </b> <i><b>{}</b></i>\n\n🔗 ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ :- {share_link}</b>")
+    await sts.edit(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\nContains `{og_msg}` files.\n🔗 ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ :- {share_link}</b>")
     short_link = await get_short_link(user, share_link)
-    await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n <b>📧 ғɪʟᴇ ɴᴀᴍᴇ :- </b> <i><b>{}</b></i>\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
+    await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n 🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
 
 # Don't Remove Credit Tg -
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/
