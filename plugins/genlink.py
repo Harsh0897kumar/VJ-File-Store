@@ -47,9 +47,9 @@ async def gen_link_s(bot, message):
     user_id = message.from_user.id
     user = await get_user(user_id)
     share_link = f"https://t.me/{BOT_USERNAME}?start={outstr}"
-    await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n File Name :- {file_name}\n\n🔗 ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ :- {share_link}</b>")
+    await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n 🔗 ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ :- {share_link}</b>")
     short_link = await get_short_link(user, share_link)
-    await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n File Name :- {file_name}\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
+    await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n 🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
     
 # Don't Remove Credit Tg - 
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
