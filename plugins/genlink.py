@@ -50,6 +50,8 @@ async def gen_link_s(bot, message):
     await message.reply(f"<b>🙏 Sorry for providing the link late.\n\n 🔗 ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ :- {share_link}</b>")
     short_link = await get_short_link(user, share_link)
     await message.reply(f"<b>🙏 Sorry for providing the link late.\n\n 🖇️ ʟɪɴᴋ :- {short_link} \n\n\n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n\n ⭕️ How To Open Link & Get File ⭕️ \n\n 👉 https://t.me/How_To_Open_and_Download/25 \n\n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</b>")
+    short_link = await get_short_link(user, share_link)
+    await message.reply(f"<b>📥 DOWNLOAD LINK | 👀 WATCH ONLINE \n\n 🖇️ ʟɪɴᴋ :- {short_link} \n\n 🖇️ ʟɪɴᴋ :- {short_link} \n\n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n 💠 More Quality | Contact Here 💠 \n\n 👉 https://t.me/allchatmebot \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n  ⭕️ How To Open Link & Get File ⭕️ \n\n  👉 https://t.me/How_To_Open_and_Download/25 \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</b>")
     
 # Don't Remove Credit Tg - 
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -109,6 +111,8 @@ async def gen_link_batch(bot, message):
         await sts.edit(f"<b>🙏 Sorry for providing the link late.\n\n 🔗 ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ :- {share_link}</b>")
         short_link = await get_short_link(user, share_link)
         await message.reply(f"<b>🙏 Sorry for providing the link late.\n\n 🖇️ ʟɪɴᴋ :- {short_link} \n\n\n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n\n ⭕️ How To Open Link & Get File ⭕️ \n\n 👉 https://t.me/How_To_Open_and_Download/25 \n\n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</b>")
+        short_link = await get_short_link(user, share_link)
+        await message.reply(f"<b>📥 DOWNLOAD LINK | 👀 WATCH ONLINE \n\n 🖇️ ʟɪɴᴋ :- {short_link} \n\n 🖇️ ʟɪɴᴋ :- {short_link} \n\n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n 💠 More Quality | Contact Here 💠 \n\n 👉 https://t.me/allchatmebot \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n  ⭕️ How To Open Link & Get File ⭕️ \n\n  👉 https://t.me/How_To_Open_and_Download/25 \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</b>")
         return
 
     FRMT = "**ɢᴇɴᴇʀᴀᴛɪɴɢ ʟɪɴᴋ...**\n**ᴛᴏᴛᴀʟ ᴍᴇssᴀɢᴇs:** {total}\n**ᴅᴏɴᴇ:** {current}\n**ʀᴇᴍᴀɪɴɪɴɢ:** {rem}\n**sᴛᴀᴛᴜs:** {sts}"
@@ -168,6 +172,8 @@ async def gen_link_batch(bot, message):
     await sts.edit(f"<b>🙏 Sorry for providing the link late.\nContains `{og_msg}` files.\n 🔗 ᴏʀɪɢɪɴᴀʟ ʟɪɴᴋ :- {share_link}</b>")
     short_link = await get_short_link(user, share_link)
     await message.reply(f"<b>🙏 Sorry for providing the link late.\n\n  🖇️ ʟɪɴᴋ :- {short_link} \n\n\n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n\n ⭕️ How To Open Link & Get File ⭕️ \n\n 👉 https://t.me/How_To_Open_and_Download/25 \n\n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</b>")
+    short_link = await get_short_link(user, share_link)
+    await message.reply(f"<b>📥 DOWNLOAD LINK | 👀 WATCH ONLINE \n\n 🖇️ ʟɪɴᴋ :- {short_link} \n\n 🖇️ ʟɪɴᴋ :- {short_link} \n\n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n 💠 More Quality | Contact Here 💠 \n\n 👉 https://t.me/allchatmebot \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ \n  ⭕️ How To Open Link & Get File ⭕️ \n\n  👉 https://t.me/How_To_Open_and_Download/25 \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</b>")
 
 # Don't Remove Credit Tg -
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/
